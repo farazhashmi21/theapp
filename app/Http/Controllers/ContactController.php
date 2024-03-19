@@ -27,7 +27,7 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $request;
     }
 
     /**
@@ -35,7 +35,7 @@ class ContactController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return "Test Successfull Id: ".$id.".";
     }
 
     /**
