@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Wellcome;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +21,6 @@ use App\Http\Controllers\Wellcome;
 // });
 
 Route::resource("/", Wellcome::class);
+Route::resource("/about", AboutController::class);
+Route::resource("/services", ServicesController::class);
+Route::resource("/contact", ContactController::class);
