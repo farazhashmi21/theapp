@@ -1,8 +1,8 @@
 <?php
   class Index{
   	public function __construct(){
-  		// echo "Assalam-O-Alaikum";
-      header("Location: public/");
+  		echo "Assalam-O-Alaikum";
+      // header("Location: public/");
   	}
   }
  ?>
